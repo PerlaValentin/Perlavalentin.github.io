@@ -1,0 +1,70 @@
+body {
+}
+
+.homepage {
+     font-family: 'Lora', serif;
+     font-size: 30px;
+     text-align: center;
+     max-width: 600px;
+     margin: 0 auto;
+}
+.achievement {
+    font-family: 'Philosopher', sans-serif;
+     font-size: 20px;
+     text-align: left;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #ffedf8;
+    color: black;
+}
+
+h1 {
+    font-family: 'Lobster';
+    text-align: center;
+    font-size: 70px;
+}
+
+
+
+#personalphoto {
+    width: 50%;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-color: black;
+    border-style: solid;
+   /* -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0
+    filter: grayscale(100%);*/
+}
+
+
+/*Perla's Notes
+font-family: 'Lobster', cursive;
+font-family: 'Lora', serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Lobster Two', cursive;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Sorts Mill Goudy', serif;
+font-family: 'Advent Pro', sans-serif;
+*/
