@@ -1,5 +1,11 @@
 body {
 }
+header {
+    text-align: center;
+    background: url(images/leaf-background.png);
+    background-size: cover;
+    color: black;
+    }
 
 .homepage {
      font-family: 'Lora', serif;
@@ -7,19 +13,20 @@ body {
      text-align: center;
      max-width: 600px;
      margin: 0 auto;
+     margin-top: 50px;
+     margin-bottom: 80px;
 }
-.achievement {
-    font-family: 'Philosopher', sans-serif;
-     font-size: 20px;
-     text-align: left;
-}
+
 /* Add a black background color to the top navigation */
 .topnav {
+    background: black;
+    padding: 14px 16px;
+    margin-top: -50px;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -28,22 +35,27 @@ body {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: #EFF8E6;
     color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #ffedf8;
+    background-color: #EFF8E6;
     color: black;
 }
 
 h1 {
-    font-family: 'Lobster';
+    font-family: 'Lobster Two', cursive;
     text-align: center;
     font-size: 70px;
 }
 
+.achievement {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
 
 
 #personalphoto {
@@ -58,6 +70,60 @@ h1 {
     filter: grayscale(100%);*/
 }
 
+/*Cat-Ghost CSS*/
+.catghost-game {
+    background: #EFF8E6;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.blue-text {
+  color: #6cd6f1;
+}
+.curly {
+  color: #ffffff;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+    animation: floating 2.5s ease infinite;
+}
+.catghost {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+.food-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+.food-item {
+  width: 100px;
+  height: 100px;
+  margin: 1px;
+}
+.food-item img{
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+}
+.onhover {
+  background: black;
+}
+@keyframes floating {
+ 0% {
+   transform: translateY(5px);
+ }
+ 50% {
+   transform: translateY(15px);
+ }
+ 100% {
+   transform: translateY(5px);
+ }
+}
 
 /*Perla's Notes
 font-family: 'Lobster', cursive;

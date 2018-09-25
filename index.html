@@ -4,17 +4,44 @@
 	<title>Perla's FEWD Course</title>
 	<link href="https://fonts.googleapis.com/css?family=Advent+Pro|EB+Garamond|Lobster|Lobster+Two|Lora|Philosopher|Sorts+Mill+Goudy" rel="stylesheet">
 	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="cat-ghost/jquery-ui.css">
 </head>
 	<body>
+	<header>
+		<img id="personalphoto" src="images/perlaspersonalphoto.png">
+		<h1>Hello! I'm Perla</h1>
+	</header>
 	<div class="topnav">
   		<a class="active" href="index.html">About Me</a>
   		<a href="resume.html">Resume</a>
 	</div>
-	<img id="personalphoto" src="images/perlaspersonalphoto.png">
-	<h1>Hello! I'm Perla</h1>
+
 	<p class="homepage">
 		I'm not new to CSS styling but I am new to Front End Development! I'm so excited to learn how to properly use CSS styles to make beautiful websites!
 	</p>
+
+<!-- COPIED THE CAT GAME. -->
+
+<div class="catghost-game">
+	<h1>Come on & Play</h1>
+	<h3><span class="curly">{</span> feed Mr. Ghost <span class="curly">}</span></h3>
+	<div class="main-container">
+	  <img class="catghost ui-widget-header" id="droppable" src="cat-ghost/img/catghost.svg"/>
+	</div>
+
+	 <div class="food-container">
+	    <div class="food-item ui-widget-content" id="donut"><img src="cat-ghost/img/donut.svg"/></div>
+	    <div class="food-item ui-widget-content" id="orange"><img src="cat-ghost/img/orange.svg"/></div>
+	    <div class="food-item ui-widget-content" id="steak"><img src="cat-ghost/img/steak.svg"/></div>
+	    <div class="food-item ui-widget-content" id="reset"><img src="cat-ghost/img/ghost.svg"/></div>
+	</div>
+		
+	<h3 class="blue-text">drag items</h3>
+  	<script src="https://code.jquery.com/jquery-1.12.4.js">	</script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  	<script src="cat-ghost/js/main.js"></script>
+
+</div>
 
 	</body>
 </html>
