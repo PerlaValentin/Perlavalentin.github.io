@@ -1,0 +1,70 @@
+h1 {
+	background: #011f4b;
+	color: white;
+	text-align: center;
+	font-size: 60px;
+	margin: 0 auto;
+}
+
+h2 {
+	font-size: 30px;
+	text-align: center;
+}
+a{
+	color:black;
+}
+a:link {
+	text-decoration: none;
+}
+a:hover {
+    color: hotpink;
+}
+
+ul {
+	text-align: center;
+}
+
+li {
+	display: inline;
+	list-style: none;
+	margin: 0 50px;
+	font-size: 30px;
+}
+
+#maui {
+	height: 700px;
+	background: #6497b1;
+	margin: auto;
+	text-align: center;
+	max-width: 1000px;
+}
+
+#reykjavik {
+	height: 700px;
+	background: #b3cde0;
+	margin: auto;
+	text-align: center;
+	max-width: 1000px;
+}
+
+#aspen {
+	height: 700px;
+	background: #eaf3ff;
+	margin: auto;
+	text-align: center;
+	max-width: 1000px;
+}
+
+img {
+	max-width: 600px;
+	width: 90%;
+	height: 400px;
+}
+
+p {
+	margin-top: 30px;
+    max-width: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: inline-block;
+}

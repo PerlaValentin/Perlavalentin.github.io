@@ -1,3 +1,4 @@
+
 body {
 }
 header {
@@ -6,6 +7,10 @@ header {
     background-size: cover;
     color: black;
     }
+
+.resumeh1 {
+  padding: 10px;
+}
 
 .homepage {
      font-family: 'Lora', serif;
@@ -69,6 +74,7 @@ h1 {
    /* -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0
     filter: grayscale(100%);*/
 }
+/*Left page CSS*/
 
 /*Cat-Ghost CSS*/
 .catghost-game {
@@ -76,6 +82,7 @@ h1 {
     text-align: center;
     width: 70%;
     margin: 0 auto;
+    padding: 10px;
 }
 .blue-text {
   color: #6cd6f1;

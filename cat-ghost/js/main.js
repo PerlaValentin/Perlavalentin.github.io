@@ -7,10 +7,10 @@
 $(document).ready(function () {
 // MOUSEOVER + MOUSEOUT - OG 
   $('#droppable').mouseover(function(){
-    $(this).attr('src','cat-ghost/img/catghost-blink.svg');
+    $(this).attr('src','cat-ghost/img/thinking.png');
   });
   $('#droppable').mouseout(function(){  
-    $(this).attr('src','cat-ghost/img/catghost.svg');
+    $(this).attr('src','cat-ghost/img/angel.png');
   });  
 // DRAGGABLE
   $( '.ui-widget-content' ).draggable({ opacity: 0.7, helper: 'clone' });
@@ -19,50 +19,26 @@ $(document).ready(function () {
       // change img src to respective 'food' ghost
       drop: function( event, ui ) {
            if (ui.draggable.attr('id') == 'donut') { 
-            $(this).attr('src', 'cat-ghost/img/donutghost.svg');
-            $(this).mouseover(function(){ // mouseover = blink img
-            $(this).attr('src','cat-ghost/img/donutghost-blink.svg');
-            });
+            $(this).attr('src', 'cat-ghost/img/scared.png');
             $(this).mouseout(function(){ // mouseout = regular img
-            $(this).attr('src','cat-ghost/img/donutghost.svg');
+            $(this).attr('src','cat-ghost/img/scared.png');
             });
           } else if (ui.draggable.attr('id') == 'orange') {
-            $(this).attr('src', 'cat-ghost/img/orangeghost.svg');
-            $(this).mouseover(function(){
-            $(this).attr('src','cat-ghost/img/orangeghost-blink.svg');
-            });
+            $(this).attr('src', 'cat-ghost/img/meditation.png');
             $(this).mouseout(function(){
-            $(this).attr('src','cat-ghost/img/orangeghost.svg');
+            $(this).attr('src','cat-ghost/img/meditation.png');
             });
           } else if (ui.draggable.attr('id') == 'steak') {
-            $(this).attr('src', 'cat-ghost/img/steakghost.svg');
-            $(this).mouseover(function(){
-            $(this).attr('src','cat-ghost/img/steakghost-blink.svg');
-            });
+            $(this).attr('src', 'cat-ghost/img/running.png');
             $(this).mouseout(function(){  
-            $(this).attr('src','cat-ghost/img/steakghost.svg');
+            $(this).attr('src','cat-ghost/img/running.png');
             });
           } else if (ui.draggable.attr('id') == 'reset') {
-            $(this).attr('src', 'cat-ghost/img/catghost.svg');
-            $(this).mouseover(function(){
-            $(this).attr('src','cat-ghost/img/catghost-blink.svg');
-            });
+            $(this).attr('src', 'cat-ghost/img/angel.png');
             $(this).mouseout(function(){  
-            $(this).attr('src','cat-ghost/img/catghost.svg');
+            $(this).attr('src','cat-ghost/img/angel.png');
             });
           }
       },
-      // open mouth when food is dragged over to catghost
-      over: function( event, ui ) {
-          if ($(this).attr('src') == 'cat-ghost/img/catghost.svg') {
-            $(this).attr('src', 'cat-ghost/img/catghost-open.svg');
-          } else if ($(this).attr('src') == 'cat-ghost/img/donutghost.svg') { 
-            $(this).attr('src', 'cat-ghost/img/donutghost-open.svg');
-          } else if ($(this).attr('src') == 'cat-ghost/img/orangeghost.svg') { 
-            $(this).attr('src', 'cat-ghost/img/orangeghost-open.svg');
-          } else if ($(this).attr('src') == 'cat-ghost/img/steakghost.svg') { 
-            $(this).attr('src', 'cat-ghost/img/steakghost-open.svg');
-          }   
-      }
     });
 })
