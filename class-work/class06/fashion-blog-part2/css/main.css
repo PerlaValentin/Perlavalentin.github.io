@@ -1,0 +1,108 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Lato", Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #444;
+}
+
+.header h1,
+.header h2 {
+	margin: 0;
+	display: inline-block;
+	font-weight: 300;
+}
+
+.header h1 {
+	color: #aa0000;
+    font-size: 54px;
+
+}
+
+.header h1 a:hover {
+	color:#dd0000;
+}
+
+.header h1 a {
+	color:#aa0000;
+}
+
+.article h3 {
+	color: #cccccc;
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: -10px;
+}
+
+.container {
+	padding: 54px;
+	width: 1080px;
+	margin: auto;
+}
+
+a {
+	color: #dd0000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #aa0000;
+}
+
+.article-title {
+	color: #000000;
+	font-weight: 300;
+	font-size: 36px;
+}
+
+p.content-article::first-letter {
+    font-size: 108px;
+    line-height: : 1;
+    float: left;
+    margin-top: -30px;
+    color: gray;
+}
+
+.article-title:hover {
+	color: pink;
+}
+.nav a {
+    color: #fff;
+    display: inline-block;
+    width: 180px;
+    text-align: center;
+
+}
+
+.nav {
+	font-size: 24px;
+	background: #000;
+
+}
+
+img {
+	width: 100%;
+}
+
+.side-bar  {
+	width: 30%;
+	float: right;
+}
+
+.right-bar {
+	width: 65%;
+	float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+h4 {
+	text-align: right;
+}
+
+.article {
+	border-bottom: 2px solid #000000;
+}
