@@ -1,0 +1,124 @@
+/*
+FONT FAMILY HELPERS :)
+font-family: 'Oswald', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Source Sans Pro', sans-serif;
+*/
+
+
+body	{
+	font-family: "Source Sans Pro";
+}
+
+header {
+	background: #000;
+	overflow: auto;
+	border-bottom: solid yellow 3px;
+}
+
+h1	{
+	color: #ffff00;
+	float: left;
+  	font-family: "Merriweather"; 
+  	padding: 5px;	
+}
+
+body, h1, h2, h3 {
+	margin: 0;
+}
+
+.bold-link {
+		font-weight: bold;
+	}
+
+nav	{
+	float: right;
+  	font-family: "Oswald"; 
+  	padding: 10px;
+}
+
+nav a {
+	color: #fff;
+	padding-right: 20px;
+}
+
+
+/* .card	{
+	  font-family: "Merriweather"
+	  padding: 5px;	
+	  width: 20%;
+} */
+
+.button {
+  background: #C6C6C6;
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);
+  display: block;
+  float: left;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.card2{
+	  box-sizing: border-box;
+	  display: inline-block;
+	  float: left;
+	  font-family: "Merriweather";
+	  overflow: auto;
+	  padding: 40px;
+	  width: 33.3%;
+}
+
+
+
+.fas {
+
+	color: red;
+}
+
+
+footer {
+	width: 100%;
+	height: 3%;
+	position: fixed;
+	bottom: 0%;
+	padding: 1%;
+	background-color: #000;
+	color: white;
+}
+	
+
+
+
+
+.tagline {
+	font-family: "Merriweather";
+	font-style: italic;
+  	background: #C6C6C6;
+  	text-align: center;
+}
+
+.blurb	{
+	background: rgba(222,222,222,.6);
+	float: right;
+	padding: 20px;
+	width: 50%;
+	height: 300px;
+
+}
+
+.banner {
+	background: url(../img/coworking.jpg);
+	overflow: auto;
+	padding: 20px;	
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
