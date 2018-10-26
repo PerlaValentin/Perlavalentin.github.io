@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body onLoad="populate()"> 
+<form name="personalityForm"> 
+<div class="wrapper container">  
+
+  
+  <div class="page-header">
+    <h1>What is your cocktail type?<br>
+    <small>Perla's cocktail type tester</small></h1>
+  </div>
+
+
+  <div class="quiz-box quiz-1">  
+    <h2 class="quiz-question">1. You prefer  alcohol to be:</h2>
+    <span class="quiz-answer"> 
+      <label><input type="radio" name="q1" onClick="saver(1,1)"> Hard</label>
+      <label><input type="radio" name="q1" onClick="saver(1,2)"> Sweet </label>
+      <label><input type="radio" name="q1" onClick="saver(1,3)"> Dry</label>
+    </span>  
+  </div>  
+
+  
+  <div class="quiz-box quiz-2">  
+    <h2 class="quiz-question">2. Your force is strong with the:</h2> 
+    <span class="quiz-answer"> 
+      <label><input type="radio" name="q2" onClick="saver(2,10)"> Dark Side</label>
+      <label><input type="radio" name="q2" onClick="saver(2,20)"> Light Side</label>
+    </span>  
+  </div>  
+
+  
+  <div class="quiz-box quiz-3">   
+    <h2 class="quiz-question">3. If you were a fruit you'd be:</h2> 
+    <span class="quiz-answer"> 
+      <label><input type="radio" name="q3" onClick="saver(3,100)"> An Orange</label> 
+      <label><input type="radio" name="q3" onClick="saver(3,200)"> A Lemon</label> 
+      <label><input type="radio" name="q3" onClick="saver(3,300)"> A Pineapple</label> 
+    </span>  
+  </div> 
+
+  
+  
+  <hr>  
+
+  
+  <div class="get-result">   
+    <input class="btn btn-primary" type="button" name="result" value="Submit" onClick="total()"> 
+    <input class="btn btn-default" type="reset" value="Reset"> 
+  </div> 
+
+  
+  <hr>   
+  
+  
+  <div class="result-box">   
+    <h3>Your Cocktail type is: </h3>
+    <div id="result"></div> 
+  </div>
+    
+  
+</div><!-- /.container -->    
+</form> 
+ <script src="main.js"></script>
+</body>
+</html>

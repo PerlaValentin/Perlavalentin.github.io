@@ -7,7 +7,7 @@ body, html {
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
   position: relative;
-  opacity: 0.65;
+
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,42 +15,45 @@ body, html {
 
 }
 .bgimg-1 {
-  background-image: url("img/bar-design.jpg");
+  background-image: url("img/bartender.jpg");
   min-height: 100%;
 }
 
 .bgimg-2 {
-  background-image: url("img/bartender.jpg");
-  min-height: 400px;
+  background-image: url("img/red-couch.png");
+  min-height: 100%;
 }
 
 .bgimg-3 {
   background-image: url("img/brockmans.jpg");
-  min-height: 400px;
+  min-height: 100%;
 }
 
-.caption {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: #000;
+.logo img {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+    display: block;
 }
 
-.caption span.border {
-  background-color: #111;
-  color: #fff;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
-}
 
 h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
   font: 20px "Lato", sans-serif;
   color: #111;
+  text-align: center;
+}
+
+.div1 {
+    color: #777;
+    background-color: white;
+    text-align: center;
+    padding: 50px 80px;
+    text-align: justify;
+    height: 500px;
 }
 
 /* Turn off parallax scrolling for tablets and phones */

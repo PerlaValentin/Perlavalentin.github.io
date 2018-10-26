@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personality Quiz</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+<h1 id="title">Personalize My Website- Quiz</h1>
+<h1 id="cheese"> cheese</h1>
+<p id="p">This is a test that modifies itself based on your answers. Enjoy! Or don't, I don't really care.</p>
+<div id="question1">
+<h2>What's your favorite animal?</h2>
+<input type="radio" name="pet" value="cat">Cat.
+<input type="radio" name="pet" value="dog">Dog.</br>
+<input type="radio" name="pet" value="adolf" >Adolf(o).</br>
+<input type="radio" name="pet" value="no" >I don't like animals.</br>
+</div>
+<div id="question2">
+<h2>What's your favorite color?</h2>
+<input type="radio" name="color" value="red">Red
+<input type="radio" name="color" value="blue">Blue</br>
+<input type="radio" name="color" value="no" >Neither.</br>
+<input type="radio" name="color" value="yes" >I can't decide.</br>
+</div>
+<div id="question3">
+<h2>What's your favorite type of font?</h2>
+<input type="radio" name="font" value="cursive">Cursive
+<input type="radio" name="font" value="bold">Bold</br>
+<input type="radio" name="font" value="no" >I don't like any of these.</br>
+<input type="radio" name="font" value="yes" >I can't decide.</br>
+</div>
+
+<div id="question4">
+<h2>Do you like these questions?</h2>
+<input type="radio" name="bg" value="yes">Yes.
+<input type="radio" name="bg" value="no">No.</br>
+<input type="radio" name="bg" value="no2" >Neutral.</br>
+<input type="radio" name="bg" value="yes2" >Maybe.</br>
+</div>
+
+<div id="question5">
+<h2>Are you enjoying this quiz so far?</h2>
+<input type="radio" name="q" value="yes" onclick="questionsfourandfive()">Yes
+<input type="radio" name="q" value="no" onclick="questionsfourandfive()">No</br>
+<input type="radio" name="q" value="no" >It's too early to tell.</br>
+<input type="radio" name="q" value="yes" >Maybe.</br>
+</div>
+
+<div id="question6">
+<h2>Do you prefer light pink or light green?</h2>
+<input type="radio" name="six" value="pink">Pink
+<input type="radio" name="six" value="green">Green</br>
+<input type="radio" name="six" value="yes" >I can't decide.</br>
+<input type="radio" name="six" value="no" >Neither.</br>
+</div>
+
+<div id="question7">
+<h2>Do you prefer background images or background colors?</h2>
+<input type="radio" name="seven" value="colors">Colors.
+<input type="radio" name="seven" value="images">Images.</br>
+<input type="radio" name="seven" value="no" >Can I stop this test yet?</br>
+<input type="radio" name="seven" value="yes" >hhhhnnnggghhh</br>
+</div>
+
+<div id="question8">
+<h2>Do you sexually identify as a Cheez-It?</h2>
+<input type="radio" name="eight" value="yes">Yes
+<input type="radio" name="eight" value="no">No</br>
+<input type="radio" name="color" value="yes2" >I identify as a pinecone.</br>
+<input type="radio" name="color" value="no2" >I sexually identify as a TI-84 Plus Graphing Calculator. Ever since I was a boy I dreamed of solving complex systems of equations with graphing and matrix capabilities. People say to me that a person being a calculator is impossible and I'm fucking retarded but I don't care, I'm beautiful. I'm having a plastic surgeon install a monochrome LCD display, 30 mm buttons and Texas Instruments branding on my body. From now on I want you guys to call me "Silver Edition" and respect my right to solve problems and load needlessly. If you can't accept me you're a calculophobe and need to check your RAM privilege. Thank you for being so understanding.</br>
+</div>
+<div id="question9">
+<h2>Why did the chicken cross the road?</h2>
+<input type="radio" name="nine" value="yes">To get to the other side.
+<input type="radio" name="nine" value="no">To escape the slaughterhouse.</br>
+<input type="radio" name="nine" value="no2">Because it longed for the sweet release of death.</br>
+<input type="radio" name="nine" value="yes2">Her husband pushed her across to collect her life insurance.</br>
+</div>
+<div id="question10">
+<h2>Yes or no?</h2>
+<input type="radio" name="ten" value="yes">Yes
+<input type="radio" name="ten" value="no">Yes</br>
+<input type="radio" name="ten" value="yes">Yes
+<input type="radio" name="ten" value="yes">No
+</div>
+
+<br>
+<div id="answerbutton">
+<button onclick="questions()" id="answer">Answer</button>
+</div>
+</br>
+
+</body>
+</html>

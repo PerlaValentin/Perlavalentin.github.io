@@ -1,0 +1,57 @@
+#1) You prefer  alochol to be:
+	a)hard
+	b)sweet
+	c)dry
+
+#2)Your force is strong with the:
+	a)dark side
+	b)light side
+
+#3) If you were a fruit you'd be:
+	a)orange
+	b)lemons
+	c)pineapple
+
+
+	Cocktail outcomes
+	Screwdriver: Vodka
+	Rusty Nail: Whiskey
+	Hawaiian Hammer: sweet AF
+	Cement mixer: Irish cream and lime juice
+
+
+Rusty Nail:
+hard dark orange
+hard dark lemons
+hard dark pineapple
+dry dark orange
+dry dark lemons
+dry dark pineapple
+
+Screwdriver:
+hard light orange
+hard light lemons
+dry light orange
+dry light lemons
+dry light pineapple
+
+Hawaiian Hammer:
+hard light pineapple
+sweet light orange
+sweet light lemons
+sweet light pineapple
+
+Cement Mixer:
+sweet dark orange
+sweet dark lemons
+sweet dark pineapple
+
+
+Javascript function would have to be as follows:
+
+If a user selects 
+
+
+
+
+
