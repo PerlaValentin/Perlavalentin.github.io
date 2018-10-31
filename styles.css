@@ -94,11 +94,11 @@ h1 {
   display: flex;
   justify-content: center;
   position: relative;
-    animation: floating 2.5s ease infinite;
+  animation: floating 2.5s ease infinite;
 }
 .catghost {
-  width: 300px;
-  height: 300px;
+  width: 30%;
+  height: 30%;
   margin-bottom: 20px;
 }
 .food-container {
@@ -108,12 +108,12 @@ h1 {
   margin-top: 20px;
 }
 .food-item {
-  width: 100px;
+  width: 40%;
   height: 100px;
   margin: 1px;
 }
 .food-item img{
-  width: 80px;
+  width: 40%;
   height: 80px;
   margin: 10px;
 }

@@ -44,16 +44,16 @@ function analyzer (scoreValue) {
       console.log(myContents[key])
     }
   }
-  console.log(scoreValue) 
-} 
+  console.log(scoreValue)
+}
 
 
 
 function myDisplay(myContents) {
 //This function will open a new window and show the results calculated 
-// alert(myContents); **use alert for testing only**. 
+// alert(myContents); **use alert for testing only**.
 document.getElementById("result").innerHTML = (myContents);
-} 
+}
 
 
 function saver(q, points) { 
