@@ -1,0 +1,144 @@
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container {
+    width: 1170px;
+}
+
+.header span{
+  font-family: 'Allura' cusiver;
+  color: #ffcc00;
+  line-height: 30px;
+}
+.dart-fs-48 {
+    font-size: 2.7em;
+}
+
+.header{
+  text-align: center;
+  margin-top: 10px;
+}
+.header h1{
+  coler: #333;
+  letter-spacing: 2px;
+  margin-top: 0;
+  margin-buttom: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.header hr{
+  background-color: #333333;
+  height: 2px;
+  width: 100px;
+  boder: none;
+  margin-top: 10px;
+}
+.menu-food .menu-food-pennal li.food-spicy, .menu-food .menu-food-pennal li:hover {
+    padding: 12px 0;
+    position: relative;
+    color: #fff;
+    background-color: #ffcc00;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 10px;
+    transition: all 500ms ease-in-out;
+}
+.menu-food .menu-food-pennal {
+    padding: 0;
+    margin: 10px;
+    height: 100px;
+    border-bottom: 3px solid #ffcc00; 
+}
+.menu-food .menu-food-pennal li {
+    float: left;
+    list-style-type: none;
+    text-align: center;
+    width: 10%;
+    color: #666;
+    padding: 25px 0;
+    font-size: 15px;
+    display: block;
+    cursor: pointer;
+    height: 98px;   
+}
+.hinh-1{
+  border-radius: 50%;
+}
+.menu-list-1 .dish-name {
+    padding: 6px 0 0 10px;
+    overflow: hidden;
+}
+.dishs-price {
+    color: #f7b527;
+    font-weight: 600;
+    font-size: 1.2857142857142858em;
+}
+.menu-list-1 {
+    margin-bottom: 40px;
+    min-height: 110px;
+    padding-bottom: 40px;
+    border-bottom: 1px dashed #ccc;
+    
+}
+.food-list{
+      padding-top: 30px;
+      background-color: #fff;
+    
+    }
+
+.mon-1{
+    position: relative;
+    min-height: 1px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+  .menu-food .menu-food-pennal .food-1, .menu-food .menu-food-pennal .food-2,.menu-food .menu-food-pennal .food-3,.menu-food .menu-food-pennal .food-4, .menu-food .menu-food-pennal .food-5,.menu-food .menu-food-pennal .food-6,.menu-food .menu-food-pennal .food-7,.menu-food .menu-food-pennal .food-8,.menu-food .menu-food-pennal .food-9,.menu-food .menu-food-pennal .food-10
+  {
+    background-image: url(https://www.multipurposethemes.com/html-templates/morsel/images/food_icons.png);
+    height: 46px;
+    width: 46px;
+    background-repeat: no-repeat;
+    transition: all ease 0.2s;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+menu-food .menu-food-pennal li span {
+    display: none;
+}
+
+.menu-food .menu-food-pennal .food-1 {
+    background-position: 0 0;
+}
+ .menu-food .menu-food-pennal .food-2 {
+    background-position: -115px -0px;
+}
+.menu-food .menu-food-pennal .food-3 {
+    background-position: -232px 0;
+}
+.menu-food .menu-food-pennal .food-4 {
+    background-position: -349px 0;
+}
+.menu-food .menu-food-pennal .food-5 {
+    background-position: -467px 0;
+}
+
+.menu-food .menu-food-pennal .food-6 {
+    background-position: -583px 0;
+}
+.menu-food .menu-food-pennal .food-7 {
+    background-position: -699px 0;
+}
+.menu-food .menu-food-pennal .food-8 {
+    background-position: -815px 0;
+}
+
+.menu-food .menu-food-pennal .food-9 {
+    background-position: -931px 0;
+}
+
+.menu-food .menu-food-pennal .food-10 {
+    background-position: -1047px 0;
+}
