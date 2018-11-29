@@ -1,0 +1,173 @@
+<html class="gr__w3schools_com"><head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+
+
+</head>
+<body data-gr-c-s-loaded="true" onLoad="populate()">
+<!-- /Background image #1 -->
+<div class="bgimg-1">
+  <!-- /NAV BAR -->
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#About">About</a>
+  <a href="menu.html">Menu</a>
+  <a href="#">Contact</a>
+</div>
+<span style="padding:10px;color:white;font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  <div class="logo">
+    <img src="img/logov4.png" alt="logo is supposed to be here">
+    <span class="border"> </span>
+  </div>
+</div>
+<!-- /Ends Background image #1 -->
+
+
+<!-- /our story container -->
+
+
+<div class="ourStory">
+    <h3>Our Story</h2>
+    <h4>We are a Blah blah blah</h3>
+
+    <!-- /icon wrappers -->
+    <div class="icon-wrapper">
+      <div class="est-icon">
+        <img src="img/big-anchor.png" alt="image  goes here">
+      </div>
+
+      <div class="our-promise">
+        <img src="img/shield.png" alt="image 2 goes here">
+
+      </div>
+
+      <div class="food-quality">
+        <img src="img/chef-hat.png" alt="image 3 goes here">
+
+      </div>
+      <div id="About"></div>
+    </div>
+    <!-- /icon wrapper ends -->
+
+</div>
+<!-- /our story container ends -->
+
+<!-- /Background image #2 -->
+<div class="bgimg-2">
+  <h1>Table Reservation</h1>
+  <h2>We would be glad to reserve a table for you at our restaurant!</h2>
+
+  <div class="reservation">
+    <form name="submit-to-google-sheet">
+      <input name="name" type="name" placeholder="Name" required>
+      <input name="phone" type="phone" placeholder="Phone" required>
+      <input name="email" type="email" placeholder="Email" required>
+      <input name="date" type="date" placeholder="Date" required>
+      <input name="time" type="time" placeholder="Time" required>
+      <input name="attendees" type="number" placeholder="Number of Attendees" required>
+      <input name="comments" type="text" placeholder="Comments" required>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+</div>
+<!-- /Ends Background image #2 -->
+
+<!-- /Quiz wrapper -->
+  <div class="quiz-wrapper">
+    <h1>HEADER!</h1>
+    <div class="wrapper-container">
+      <div id="prev-button">
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      </div>
+
+      <div class="blog-slider__container">
+      <!-- /Question 1 -->
+      <div class="blogSlides fade" style="display: block;position: relative;">
+        <div class="blog-slider__numbertext">1 / 3
+        </div>
+        <img src="img/orange-cocktail-darker.jpg">
+        <div class="blog-slider__text1">
+          <h2 class="quiz-question"> You prefer  alcohol to be:</h2>
+          <div class="quiz-answer">
+              <label><input type="radio" name="q1" onClick="saver(1,1)"> Hard</label>
+              <label><input type="radio" name="q1" onClick="saver(1,2)"> Sweet </label>
+              <label><input type="radio" name="q1" onClick="saver(1,3)"> Dry</label>
+          </div>
+        </div>
+      </div>
+      <!-- /Question 2 -->
+      <div class="blogSlides fade" style="display: block;position: relative;">
+        <div class="blog-slider__numbertext">2 / 3
+        </div>
+        <img src="img/sweet.jpg">
+        <div class="blog-slider__text2">
+          <h2 class="quiz-question"> Are you sweet or sour?:</h2>
+            <div class="quiz-answer">
+                <label><input type="radio" name="q2" onClick="saver(2,10)"> Sweet</label>
+                <label><input type="radio" name="q2" onClick="saver(2,20)"> Sour</label>
+           </div>
+        </div>
+      </div>
+      <!-- /Question 3 -->
+      <div class="blogSlides fade" style="display: block;position: relative;">
+        <div class="blog-slider__numbertext">3 / 3
+        </div>
+        <img src="img/lemon.jpg">
+        <div class="blog-slider__text3">
+          <h2 class="quiz-question"> Your favorite fruit is:</h2>
+          <div class="quiz-answer">
+              <label class="radio-button"><input type="radio" name="q3" onClick="saver(3,100)"> An Orange</label>
+              <label><input type="radio" name="q3" onClick="saver(3,200)"> A Lemon</label>
+            <label><input type="radio" name="q3" onClick="saver(3,300)"> A Pineapple</label>
+          </div>
+        </div>
+      </div>
+      <!-- /Submit SLIDE -->
+      <div class="blogSlides fade" style="display: block;position: relative;">
+        <div class="blog-slider__numbertext">
+        </div>
+        <img src="img/results.jpg" id="result-image">
+        <div id="submit-content">
+          <div class="blog-slider__text4">
+          <h2 class="quiz-question">Click to see your favorite cocktail!</h2>
+          <div class="get-result">
+            <input class="btn btn-primary" type="button" name="result" value="Submit" onClick="total()">
+        </div>
+        <div class="result-box">
+          <h3>Your Cocktail type is: </h3>
+          <div id="result">
+          </div>
+        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- /End Quiz Wrapper -->
+      <div id="next-button">
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+  </div>
+</div>
+
+<!-- /Background image #3 -->
+<div class="bgimg-3">
+  <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">SCROLL UP</span>
+  </div>
+</div>
+<!-- /Ends Background image #3 -->
+
+
+<!-- /Footer -->
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:1px;text-align: justify;">
+    <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+  </div>
+</div>
+<!-- /Ends Footer -->
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
