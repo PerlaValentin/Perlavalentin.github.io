@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300");
+
+#wrapper, html, body {
+  width: 100vw;
+  height: 100vh;
+  z-index: -2;
+  position: relative;
+  background: #e8ebf2;
+  box-sizing: border-box;
+}
+#wrapper #mainDiv, html #mainDiv, body #mainDiv {
+  width: 300px;
+  height: 400px;
+  background: #dbebfc;
+  background-image: -webkit-linear-gradient(36.5deg, #dbebfc 50%, white 50%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-flow: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#wrapper #mainDiv #daysDiv, html #mainDiv #daysDiv, body #mainDiv #daysDiv {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+#wrapper #mainDiv #daysDiv p, html #mainDiv #daysDiv p, body #mainDiv #daysDiv p {
+  font-family: "Poppins";
+  position: relative;
+  display: block;
+  padding: 10px;
+  overflow: hidden;
+}
+#wrapper #mainDiv #daysDiv p:before, html #mainDiv #daysDiv p:before, body #mainDiv #daysDiv p:before {
+  box-sizing: border-box;
+  transform: translateX(100%);
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-bottom: 1px solid transparent;
+  border-left: 1px solid transparent;
+  width: 99.5%;
+  height: 2px;
+  transition: .1s transform linear, .1s height linear .1s;
+}
+#wrapper #mainDiv #daysDiv p:after, html #mainDiv #daysDiv p:after, body #mainDiv #daysDiv p:after {
+  box-sizing: border-box;
+  transform: translateX(-100%);
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 99.5%;
+  height: 2px;
+  border-top: 2px solid transparent;
+  border-right: 1px solid transparent;
+  transition: .1s transform linear .2s, .1s height linear .3s;
+}
+#wrapper #mainDiv #daysDiv p:hover, html #mainDiv #daysDiv p:hover, body #mainDiv #daysDiv p:hover {
+  cursor: pointer;
+}
+#wrapper #mainDiv #daysDiv p:hover:before, html #mainDiv #daysDiv p:hover:before, body #mainDiv #daysDiv p:hover:before {
+  transform: translateX(0);
+  height: 100%;
+  border-color: black;
+}
+#wrapper #mainDiv #daysDiv p:hover:after, html #mainDiv #daysDiv p:hover:after, body #mainDiv #daysDiv p:hover:after {
+  transform: translateX(0);
+  height: 100%;
+  border-color: black;
+}
+#wrapper #mainScheduleDiv, html #mainScheduleDiv, body #mainScheduleDiv {
+  z-index: -4;
+  width: 300px;
+  height: 400px;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: space-between;
+}
+#wrapper #mainScheduleDiv #headerDiv, html #mainScheduleDiv #headerDiv, body #mainScheduleDiv #headerDiv {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background: #dbebfc;
+  height: 50px;
+  width: 100%;
+}
+#wrapper #mainScheduleDiv #headerDiv p, html #mainScheduleDiv #headerDiv p, body #mainScheduleDiv #headerDiv p {
+  font-family: "Poppins";
+  text-align: center;
+  font-size: 120%;
+  line-height: 50px;
+}
+#wrapper #mainScheduleDiv #scheduleDiv, html #mainScheduleDiv #scheduleDiv, body #mainScheduleDiv #scheduleDiv {
+  height: 310px;
+  width: 100%;
+}
+#wrapper #mainScheduleDiv #scheduleDiv #schedule .time, html #mainScheduleDiv #scheduleDiv #schedule .time, body #mainScheduleDiv #scheduleDiv #schedule .time {
+  padding-left: 30px;
+  font-family: "Poppins";
+  float: left;
+}
+#wrapper #mainScheduleDiv #scheduleDiv #schedule .event, html #mainScheduleDiv #scheduleDiv #schedule .event, body #mainScheduleDiv #scheduleDiv #schedule .event {
+  padding-right: 30px;
+  font-family: "Open Sans";
+  float: right;
+}
+#wrapper #resetDiv, html #resetDiv, body #resetDiv {
+  position: absolute;
+  left: 49.5%;
+  top: 49%;
+}
+#wrapper #resetDiv i, html #resetDiv i, body #resetDiv i {
+  color: #181919;
+}
+#wrapper #resetDiv i:hover, html #resetDiv i:hover, body #resetDiv i:hover {
+  cursor: pointer;
+  font-size: 170%;
+}
